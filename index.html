@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuel calculator</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <script async src="./script/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Oblicz ile kosztuje twoja trasa:</h1>
+        <div class="bigBox">
+            <div class="box">
+                <input type="number" class="inputDesign" id="coast">
+                <p class="text">Cena paliwa</p>
+            </div>
+            <div class="box">
+                <input type="number" class="inputDesign" id="sw">
+                <p class="text">Średnie spalanie na 100km</p>
+            </div>
+            <div class="box">
+                <input type="number" class="inputDesign" id="distance">
+                <p class="text">Ilość km</p>
+                <input type="checkbox" name="horns" class="checkbox" id="check">
+                <p class="text">W dwie strony</p>
+            </div>
+        </div>
+        <button class="acceptButton" onclick="first()">Oblicz</button>
+        <div class="end">
+            <div class="box1 w">
+                <p class="wwww">Cena za 1km</p>
+                <p id="price1"></p>
+            </div>
+            <div class="box1 s">
+                <div class="boxText"><p class="red">Cena za </p><p id="z"></p></div>
+                <p id="price2"></p>
+            </div>
+            <div class="box1 w">
+                <div class="boxText1"><p>Cena za </p><p id="zz"></p></div>
+                <p id="price3"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

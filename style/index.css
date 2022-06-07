@@ -1,0 +1,121 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.container {
+    width: 700px;
+    height: 600px;
+    border: 3px solid rgb(220, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #151515;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.box {
+    display: flex;
+}
+
+.text {
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.inputDesign {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background: #3f3f3f;
+    border-bottom: 2px solid rgb(220, 9, 9);
+    color: #fff;
+    outline: none;
+}
+
+.acceptButton {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 20px;
+    width: 100px;
+    height: 45px;
+    background: #181818;
+    border: 2px solid rgb(220, 9, 9);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.acceptButton:hover {
+    background: #161616;
+}
+
+.end {
+    display: flex;
+}
+
+.box1 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w {
+    font-size: 25px;
+}
+
+.s {
+    font-size: 25px;
+}
+
+.red {
+    color: rgb(220, 9, 9);
+}
+
+.boxText {
+    display: flex; 
+    color: rgb(220, 9, 9);
+}
+
+.boxText1 {
+    display: flex; 
+    color: #fff;
+}
+
+#z {
+    margin-left: 8px;
+    color: rgb(220, 9, 9);
+}
+
+#zz {
+    margin-left: 8px;
+}
+
+#price2 {
+    color: rgb(220, 9, 9);
+}
